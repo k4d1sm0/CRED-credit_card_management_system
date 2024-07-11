@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 15
+          node-version: 13
 
       - name: Install dependencies
         working-directory: frontend
@@ -41,7 +41,7 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 15
+          node-version: 13
 
       - name: Set AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
