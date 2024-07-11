@@ -1,0 +1,7 @@
+config:
+  aws:region: us-east-1
+  infra:dbInstanceClass: db.t3.micro
+  infra:dbName: exampledb
+  infra:dbPassword:
+    secure: AAABAD1ZJWPwztCwwUJV5AIP24DUjpzCx10rGu+qH5nKY5D1v3NIg6wwT98drlQ=
+  infra:dbUser: exampleUser
